@@ -34,9 +34,9 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 ## 💡 Requisitos
 <details>
   <summary>Requisitos Funcionais (RF)</summary>
-  <p>
+  <details>
     <summary>RF01 - Gerenciamento de Usuários</summary>
-  </p>
+  </details>
 </details>
 ---
 
