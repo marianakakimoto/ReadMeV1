@@ -34,6 +34,8 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 ## 💡 Requisitos
 <details>
   <summary>Requisitos Funcionais (RF)</summary>
+
+  <!-- RF01 - Gerenciamento de Usuários -->
   <details>
     <summary>RF01 - Gerenciamento de Usuários</summary>
     <p>O sistema deve permitir o cadastro de novos usuários com nome, email, senha e telefone.</p>
@@ -42,66 +44,78 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
     <p>O sistema deve manter sessão do usuário logado.</p>
     <p>O sistema deve permitir logout do usuário.</p>
   </details>
+
+  <!-- RF02 - Recuperação de Senha -->
   <details>
-  <summary>RF02 - Recuperação de Senha</summary>
-  <p>O sistema deve permitir solicitar recuperação de senha via email.</p>
-  <p>O sistema deve enviar link/código de recuperação por email.</p>
-  <p>O sistema deve permitir redefinir senha através do link/código válido.</p>
-  <p>O sistema deve invalidar links de recuperação após uso ou expiração.</p>
+    <summary>RF02 - Recuperação de Senha</summary>
+    <p>O sistema deve permitir solicitar recuperação de senha via email.</p>
+    <p>O sistema deve enviar link/código de recuperação por email.</p>
+    <p>O sistema deve permitir redefinir senha através do link/código válido.</p>
+    <p>O sistema deve invalidar links de recuperação após uso ou expiração.</p>
+  </details>
+
+  <!-- RF03 - Alteração de Senha -->
+  <details>
+    <summary>RF03 - Alteração de Senha</summary>
+    <p>O sistema deve permitir alterar senha informando a senha atual.</p>
+    <p>O sistema deve validar a senha atual antes de permitir alteração.</p>
+    <p>O sistema deve confirmar nova senha antes da alteração.</p>
+  </details>
+
+  <!-- RF04 - Sistema de Pontos via QR Code -->
+  <details>
+    <summary>RF04 - Sistema de Pontos via QR Code</summary>
+    <p>O sistema deve permitir leitura de QR codes através da câmera.</p>
+    <p>O sistema deve validar e processar QR codes válidos.</p>
+    <p>O sistema deve adicionar pontos à conta do usuário após leitura válida.</p>
+    <p>O sistema deve impedir uso múltiplo do mesmo QR code pelo mesmo usuário.</p>
+    <p>O sistema deve exibir confirmação de pontos recebidos.</p>
+  </details>
+
+  <!-- RF05 - Resgate de Benefícios -->
+  <details>
+    <summary>RF05 - Resgate de Benefícios</summary>
+    <p>O sistema deve listar benefícios disponíveis (ingressos, descontos).</p>
+    <p>O sistema deve exibir custo em pontos de cada benefício.</p>
+    <p>O sistema deve verificar saldo suficiente antes do resgate.</p>
+    <p>O sistema deve processar resgate e debitar pontos da conta.</p>
+    <p>O sistema deve gerar comprovante/código do benefício resgatado.</p>
+    <p>O sistema deve impedir resgate com saldo insuficiente.</p>
+  </details>
+
+  <!-- RF06 - Histórico e Saldo -->
+  <details>
+    <summary>RF06 - Histórico e Saldo</summary>
+    <p>O sistema deve exibir saldo atual de pontos do usuário.</p>
+    <p>O sistema deve listar histórico de ganho de pontos.</p>
+    <p>O sistema deve listar histórico de gastos/resgates.</p>
+    <p>O sistema deve permitir filtrar histórico por período.</p>
+    <p>O sistema deve exibir detalhes de cada transação.</p>
+  </details>
+
+  <!-- RF07 - Perfil do Usuário -->
+  <details>
+    <summary>RF07 - Perfil do Usuário</summary>
+    <p>O sistema deve permitir visualizar dados do perfil.</p>
+    <p>O sistema deve permitir editar dados básicos do perfil.</p>
+    <p>O sistema deve validar alterações antes de salvar.</p>
+  </details>
+
 </details>
 
-<details>
-  <summary>RF03 - Alteração de Senha</summary>
-  <p>O sistema deve permitir alterar senha informando a senha atual.</p>
-  <p>O sistema deve validar a senha atual antes de permitir alteração.</p>
-  <p>O sistema deve confirmar nova senha antes da alteração.</p>
-</details>
-
-<details>
-  <summary>RF04 - Sistema de Pontos via QR Code</summary>
-  <p>O sistema deve permitir leitura de QR codes através da câmera.</p>
-  <p>O sistema deve validar e processar QR codes válidos.</p>
-  <p>O sistema deve adicionar pontos à conta do usuário após leitura válida.</p>
-  <p>O sistema deve impedir uso múltiplo do mesmo QR code pelo mesmo usuário.</p>
-  <p>O sistema deve exibir confirmação de pontos recebidos.</p>
-</details>
-
-<details>
-  <summary>RF05 - Resgate de Benefícios</summary>
-  <p>O sistema deve listar benefícios disponíveis (ingressos, descontos).</p>
-  <p>O sistema deve exibir custo em pontos de cada benefício.</p>
-  <p>O sistema deve verificar saldo suficiente antes do resgate.</p>
-  <p>O sistema deve processar resgate e debitar pontos da conta.</p>
-  <p>O sistema deve gerar comprovante/código do benefício resgatado.</p>
-  <p>O sistema deve impedir resgate com saldo insuficiente.</p>
-</details>
-
-<details>
-  <summary>RF06 - Histórico e Saldo</summary>
-  <p>O sistema deve exibir saldo atual de pontos do usuário.</p>
-  <p>O sistema deve listar histórico de ganho de pontos.</p>
-  <p>O sistema deve listar histórico de gastos/resgates.</p>
-  <p>O sistema deve permitir filtrar histórico por período.</p>
-  <p>O sistema deve exibir detalhes de cada transação.</p>
-</details>
-
-<details>
-  <summary>RF07 - Perfil do Usuário</summary>
-  <p>O sistema deve permitir visualizar dados do perfil.</p>
-  <p>O sistema deve permitir editar dados básicos do perfil.</p>
-  <p>O sistema deve validar alterações antes de salvar.</p>
-</details>
-</details>
 <details>
   <summary>Requisitos Não Funcionais (RNF)</summary>
-    <details>
+
+  <!-- RNF01 - Performance -->
+  <details>
     <summary>RNF01 - Performance</summary>
     <p>O tempo de resposta da API não deve exceder 5 segundos.</p>
     <p>O tempo de login não deve exceder 3 segundos.</p>
     <p>A leitura de QR code deve ser processada em até 1 segundo.</p>
     <p>O carregamento da tela inicial deve ocorrer em até 2 segundos.</p>
   </details>
-  
+
+  <!-- RNF02 - Usabilidade -->
   <details>
     <summary>RNF02 - Usabilidade</summary>
     <p>A interface deve ser intuitiva e seguir padrões mobile.</p>
@@ -109,13 +123,15 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
     <p>Fontes e botões devem ter tamanho adequado para toque.</p>
     <p>Feedback visual deve ser fornecido para todas as ações do usuário.</p>
   </details>
-  
+
+  <!-- RNF03 - Compatibilidade -->
   <details>
     <summary>RNF03 - Compatibilidade</summary>
     <p>O app deve ser compatível com Android 7.0+ e iOS 12.0+.</p>
     <p>O backend deve ser compatível com Node.js 20+.</p>
   </details>
-  
+
+  <!-- RNF04 - Segurança -->
   <details>
     <summary>RNF04 - Segurança</summary>
     <p>Senhas devem ser armazenadas com hash seguro (bcrypt).</p>
@@ -124,19 +140,22 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
     <p>QR codes devem ter validação contra reutilização.</p>
     <p>Dados sensíveis não devem ser logados.</p>
   </details>
-  
+
+  <!-- RNF05 - Disponibilidade -->
   <details>
     <summary>RNF05 - Disponibilidade</summary>
     <p>Sincronização automática quando conexão for restabelecida.</p>
   </details>
-  
+
+  <!-- RNF06 - Escalabilidade -->
   <details>
     <summary>RNF06 - Escalabilidade</summary>
     <p>O sistema deve suportar até 1000 usuários simultâneos.</p>
     <p>O banco de dados deve suportar crescimento de 10000 transações/mês.</p>
     <p>A arquitetura deve permitir expansão horizontal.</p>
   </details>
-  
+
+  <!-- RNF07 - Manutenibilidade -->
   <details>
     <summary>RNF07 - Manutenibilidade</summary>
     <p>Código deve seguir padrões de Clean Code.</p>
@@ -144,14 +163,16 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
     <p>Logs estruturados devem ser implementados.</p>
     <p>Versionamento semântico deve ser adotado.</p>
   </details>
-  
+
+  <!-- RNF08 - Privacidade -->
   <details>
     <summary>RNF08 - Privacidade</summary>
     <p>Sistema deve estar em conformidade com LGPD.</p>
     <p>Usuário deve poder solicitar exclusão de dados.</p>
     <p>Dados pessoais devem ser minimizados e protegidos.</p>
   </details>
-  
+
+  <!-- RNF09 - Recursos do Dispositivo -->
   <details>
     <summary>RNF09 - Recursos do Dispositivo</summary>
     <p>App deve solicitar permissão para uso da câmera.</p>
@@ -159,7 +180,9 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
     <p>App deve ocupar no máximo 200MB de armazenamento.</p>
     <p>Consumo de bateria deve ser otimizado.</p>
   </details>
+
 </details>
+
 ---
 
 ## 💡 Protótipo e documentação
