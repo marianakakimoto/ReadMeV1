@@ -36,7 +36,7 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
   <summary>Requisitos Funcionais (RF)</summary>
   <details>
     <summary>RF01 - Gerenciamento de Usuários</summary>
-    <p>O sistema deve permitir o cadastro de novos usuários com nome, email, senha e telefone.</p>
+    <summary>O sistema deve permitir o cadastro de novos usuários com nome, email, senha e telefone.</summary>
     <p>O sistema deve validar a unicidade do email no cadastro.</p>
     <p>O sistema deve permitir login com email e senha.</p>
     <p>O sistema deve manter sessão do usuário logado.</p>
