@@ -32,12 +32,12 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 ---
 
 ## 💡 Requisitos
-
-- **Sistema de recompensas**: Incentiva os usuários a descartarem seus resíduos corretamente em troca de benefícios.
-- **Autenticação segura**: Implementação de JWT para garantir a segurança no processo de login e comunicação entre frontend e backend.
-- **Testes automatizados**: O código foi testado utilizando **Jest** e **React Testing Library**, garantindo uma cobertura de testes acima de 80%.
-- **API bem documentada**: A API do backend é documentada utilizando **Swagger**, oferecendo uma visão clara sobre as rotas e funcionalidades.
-
+<details>
+  <summary>Requisitos Funcionais (RF)</summary>
+  <p>
+    <summary>RF01 - Gerenciamento de Usuários</summary>
+  </p>
+</details>
 ---
 
 ## 💡 Protótipo e documentação
