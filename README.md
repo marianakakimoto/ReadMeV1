@@ -194,7 +194,7 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 
 ## 💡 Protótipo
 
-Acesse o protótipo interativo no Figma:  
+Acesse o protótipo no Figma:  
 
 [Protótipo no Figma](https://www.figma.com/design/bXL4WXW3bh4LPZq1Nl6Mbh/EcosRev---com-tratamento-de-exce%C3%A7%C3%A3o?node-id=0-1&t=NFlEy2NGOc1szUI9-1)
 
