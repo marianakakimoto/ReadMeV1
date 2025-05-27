@@ -33,7 +33,7 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 
 ## 💡 Requisitos
 <details>
-  <summary style="font-size: 1.5em; font-weight: bold;">Requisitos Funcionais (RF)</summary>
+  <summary>### **Requisitos Funcionais (RF)**</summary>
 
   <!-- RF01 - Gerenciamento de Usuários -->
   <details>
@@ -104,7 +104,7 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 </details>
 
 <details>
-  <summary style="font-size: 1.5em; font-weight: bold;">Requisitos Não Funcionais (RNF)</summary>
+  <summary>### **Requisitos Não Funcionais (RNF)**</summary>
 
   <!-- RNF01 - Performance -->
   <details>
