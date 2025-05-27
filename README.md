@@ -31,7 +31,7 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 
 ---
 
-## 💡 Requisitos
+##  Requisitos
 <details>
   <summary>**Requisitos Funcionais (RF)**</summary>
 
@@ -99,6 +99,13 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
     <p>O sistema deve permitir visualizar dados do perfil.</p>
     <p>O sistema deve permitir editar dados básicos do perfil.</p>
     <p>O sistema deve validar alterações antes de salvar.</p>
+  </details>
+    <!-- RF08 - Acessibilidade -->
+  <details>
+    <summary>RF08 - Acessibilidade</summary>
+    <p>O sistema deve permitir ao usuário ajustar o tamanho das fontes para melhorar a legibilidade.</p>
+    <p>O sistema deve garantir que as alterações de tamanho de fonte sejam aplicadas em todas as telas e componentes do aplicativo.</p>
+    <p>O sistema deve manter a usabilidade e layout adequados mesmo com tamanhos de fonte maiores.</p>
   </details>
 
 </details>
@@ -185,7 +192,7 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 
 ---
 
-## 💡 Protótipo e documentação
+## 💡 Protótipo
 
 Acesse o protótipo interativo no Figma:  
 
