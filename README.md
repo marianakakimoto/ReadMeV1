@@ -31,7 +31,7 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 
 ---
 
-##  Requisitos
+## 📜 Requisitos
 <details>
   <summary>**Requisitos Funcionais (RF)**</summary>
 
