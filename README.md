@@ -33,9 +33,7 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 
 ## 💡 Requisitos
 <details>
-  <details>
   <summary>Requisitos Funcionais (RF)</summary>
-  </details>
   <details>
     <summary>RF01 - Gerenciamento de Usuários</summary>
     <p>O sistema deve permitir o cadastro de novos usuários com nome, email, senha e telefone.</p>
@@ -44,6 +42,55 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
     <p>O sistema deve manter sessão do usuário logado.</p>
     <p>O sistema deve permitir logout do usuário.</p>
   </details>
+  <details>
+  <summary>RF02 - Recuperação de Senha</summary>
+  <p>O sistema deve permitir solicitar recuperação de senha via email.</p>
+  <p>O sistema deve enviar link/código de recuperação por email.</p>
+  <p>O sistema deve permitir redefinir senha através do link/código válido.</p>
+  <p>O sistema deve invalidar links de recuperação após uso ou expiração.</p>
+</details>
+
+<details>
+  <summary>RF03 - Alteração de Senha</summary>
+  <p>O sistema deve permitir alterar senha informando a senha atual.</p>
+  <p>O sistema deve validar a senha atual antes de permitir alteração.</p>
+  <p>O sistema deve confirmar nova senha antes da alteração.</p>
+</details>
+
+<details>
+  <summary>RF04 - Sistema de Pontos via QR Code</summary>
+  <p>O sistema deve permitir leitura de QR codes através da câmera.</p>
+  <p>O sistema deve validar e processar QR codes válidos.</p>
+  <p>O sistema deve adicionar pontos à conta do usuário após leitura válida.</p>
+  <p>O sistema deve impedir uso múltiplo do mesmo QR code pelo mesmo usuário.</p>
+  <p>O sistema deve exibir confirmação de pontos recebidos.</p>
+</details>
+
+<details>
+  <summary>RF05 - Resgate de Benefícios</summary>
+  <p>O sistema deve listar benefícios disponíveis (ingressos, descontos).</p>
+  <p>O sistema deve exibir custo em pontos de cada benefício.</p>
+  <p>O sistema deve verificar saldo suficiente antes do resgate.</p>
+  <p>O sistema deve processar resgate e debitar pontos da conta.</p>
+  <p>O sistema deve gerar comprovante/código do benefício resgatado.</p>
+  <p>O sistema deve impedir resgate com saldo insuficiente.</p>
+</details>
+
+<details>
+  <summary>RF06 - Histórico e Saldo</summary>
+  <p>O sistema deve exibir saldo atual de pontos do usuário.</p>
+  <p>O sistema deve listar histórico de ganho de pontos.</p>
+  <p>O sistema deve listar histórico de gastos/resgates.</p>
+  <p>O sistema deve permitir filtrar histórico por período.</p>
+  <p>O sistema deve exibir detalhes de cada transação.</p>
+</details>
+
+<details>
+  <summary>RF07 - Perfil do Usuário</summary>
+  <p>O sistema deve permitir visualizar dados do perfil.</p>
+  <p>O sistema deve permitir editar dados básicos do perfil.</p>
+  <p>O sistema deve validar alterações antes de salvar.</p>
+</details>
 </details>
 <details>
   <summary>Requisitos Não Funcionais (RNF)</summary>
