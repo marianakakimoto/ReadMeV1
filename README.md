@@ -94,71 +94,71 @@ Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolv
 </details>
 <details>
   <summary>Requisitos Não Funcionais (RNF)</summary>
+    <details>
+    <summary>RNF01 - Performance</summary>
+    <p>O tempo de resposta da API não deve exceder 5 segundos.</p>
+    <p>O tempo de login não deve exceder 3 segundos.</p>
+    <p>A leitura de QR code deve ser processada em até 1 segundo.</p>
+    <p>O carregamento da tela inicial deve ocorrer em até 2 segundos.</p>
+  </details>
+  
   <details>
-  <summary>RNF01 - Performance</summary>
-  <p>O tempo de resposta da API não deve exceder 5 segundos.</p>
-  <p>O tempo de login não deve exceder 3 segundos.</p>
-  <p>A leitura de QR code deve ser processada em até 1 segundo.</p>
-  <p>O carregamento da tela inicial deve ocorrer em até 2 segundos.</p>
-</details>
-
-<details>
-  <summary>RNF02 - Usabilidade</summary>
-  <p>A interface deve ser intuitiva e seguir padrões mobile.</p>
-  <p>O aplicativo deve funcionar em modo portrait e landscape.</p>
-  <p>Fontes e botões devem ter tamanho adequado para toque.</p>
-  <p>Feedback visual deve ser fornecido para todas as ações do usuário.</p>
-</details>
-
-<details>
-  <summary>RNF03 - Compatibilidade</summary>
-  <p>O app deve ser compatível com Android 7.0+ e iOS 12.0+.</p>
-  <p>O backend deve ser compatível com Node.js 20+.</p>
-</details>
-
-<details>
-  <summary>RNF04 - Segurança</summary>
-  <p>Senhas devem ser armazenadas com hash seguro (bcrypt).</p>
-  <p>Comunicação deve usar HTTPS/TLS.</p>
-  <p>Tokens de autenticação devem ter expiração.</p>
-  <p>QR codes devem ter validação contra reutilização.</p>
-  <p>Dados sensíveis não devem ser logados.</p>
-</details>
-
-<details>
-  <summary>RNF05 - Disponibilidade</summary>
-  <p>Sincronização automática quando conexão for restabelecida.</p>
-</details>
-
-<details>
-  <summary>RNF06 - Escalabilidade</summary>
-  <p>O sistema deve suportar até 1000 usuários simultâneos.</p>
-  <p>O banco de dados deve suportar crescimento de 10000 transações/mês.</p>
-  <p>A arquitetura deve permitir expansão horizontal.</p>
-</details>
-
-<details>
-  <summary>RNF07 - Manutenibilidade</summary>
-  <p>Código deve seguir padrões de Clean Code.</p>
-  <p>APIs devem ser documentadas (Swagger).</p>
-  <p>Logs estruturados devem ser implementados.</p>
-  <p>Versionamento semântico deve ser adotado.</p>
-</details>
-
-<details>
-  <summary>RNF08 - Privacidade</summary>
-  <p>Sistema deve estar em conformidade com LGPD.</p>
-  <p>Usuário deve poder solicitar exclusão de dados.</p>
-  <p>Dados pessoais devem ser minimizados e protegidos.</p>
-</details>
-
-<details>
-  <summary>RNF09 - Recursos do Dispositivo</summary>
-  <p>App deve solicitar permissão para uso da câmera.</p>
-  <p>App deve funcionar com pelo menos 2GB de RAM.</p>
-  <p>App deve ocupar no máximo 200MB de armazenamento.</p>
-  <p>Consumo de bateria deve ser otimizado.</p>
-</details>
+    <summary>RNF02 - Usabilidade</summary>
+    <p>A interface deve ser intuitiva e seguir padrões mobile.</p>
+    <p>O aplicativo deve funcionar em modo portrait e landscape.</p>
+    <p>Fontes e botões devem ter tamanho adequado para toque.</p>
+    <p>Feedback visual deve ser fornecido para todas as ações do usuário.</p>
+  </details>
+  
+  <details>
+    <summary>RNF03 - Compatibilidade</summary>
+    <p>O app deve ser compatível com Android 7.0+ e iOS 12.0+.</p>
+    <p>O backend deve ser compatível com Node.js 20+.</p>
+  </details>
+  
+  <details>
+    <summary>RNF04 - Segurança</summary>
+    <p>Senhas devem ser armazenadas com hash seguro (bcrypt).</p>
+    <p>Comunicação deve usar HTTPS/TLS.</p>
+    <p>Tokens de autenticação devem ter expiração.</p>
+    <p>QR codes devem ter validação contra reutilização.</p>
+    <p>Dados sensíveis não devem ser logados.</p>
+  </details>
+  
+  <details>
+    <summary>RNF05 - Disponibilidade</summary>
+    <p>Sincronização automática quando conexão for restabelecida.</p>
+  </details>
+  
+  <details>
+    <summary>RNF06 - Escalabilidade</summary>
+    <p>O sistema deve suportar até 1000 usuários simultâneos.</p>
+    <p>O banco de dados deve suportar crescimento de 10000 transações/mês.</p>
+    <p>A arquitetura deve permitir expansão horizontal.</p>
+  </details>
+  
+  <details>
+    <summary>RNF07 - Manutenibilidade</summary>
+    <p>Código deve seguir padrões de Clean Code.</p>
+    <p>APIs devem ser documentadas (Swagger).</p>
+    <p>Logs estruturados devem ser implementados.</p>
+    <p>Versionamento semântico deve ser adotado.</p>
+  </details>
+  
+  <details>
+    <summary>RNF08 - Privacidade</summary>
+    <p>Sistema deve estar em conformidade com LGPD.</p>
+    <p>Usuário deve poder solicitar exclusão de dados.</p>
+    <p>Dados pessoais devem ser minimizados e protegidos.</p>
+  </details>
+  
+  <details>
+    <summary>RNF09 - Recursos do Dispositivo</summary>
+    <p>App deve solicitar permissão para uso da câmera.</p>
+    <p>App deve funcionar com pelo menos 2GB de RAM.</p>
+    <p>App deve ocupar no máximo 200MB de armazenamento.</p>
+    <p>Consumo de bateria deve ser otimizado.</p>
+  </details>
 </details>
 ---
 
