@@ -5,8 +5,8 @@
 - [Sobre o Projeto](#-ecosrev--seu-app-para-descarte-consciente-de-resíduos-eletrônicos)
 - [Tecnologias Frontend](#-tecnologias-frontend)
 - [Tecnologias Backend](#-tecnologias-backend)
-- [Requisitos Funcionais](#-requisitos)
-- [Requisitos Não Funcionais](#-requisitos)
+- [Requisitos Funcionais](#-requisitos-funcionais)
+- [Requisitos Não Funcionais](#-requisitos-não-funcionais)
 - [Protótipo](#-protótipo)
 - [Equipe](#-desenvolvedores)
 
