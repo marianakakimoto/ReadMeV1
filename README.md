@@ -1,5 +1,5 @@
 # 
-<img src="capa.svg" alt="Banner para Site Sua Nova Sombra Roxo e Azul Moderno Delicado" style="border-radius: 200px; width: 100%; height: auto;">
+<img src="capa.png" alt="Banner para Site Sua Nova Sombra Roxo e Azul Moderno Delicado" style="border-radius: 200px; width: 100%; height: auto;">
 
 ## 🚀 Visão Geral
 
