@@ -1,6 +1,15 @@
 # 
 <img src="capa.png" alt="Banner para Site Sua Nova Sombra Roxo e Azul Moderno Delicado" style="border-radius: 200px; width: 100%; height: auto;">
 
+## Índice
+- [Sobre o Projeto](#-ecosrev--seu-app-para-descarte-consciente-de-resíduos-eletrônicos)
+- [Tecnologias Frontend](#-tecnologias-frontend)
+- [Tecnologias Backend](#-tecnologias-backend)
+- [Requisitos Funcionais](#-requisitos)
+- [Requisitos Não Funcionais](#-requisitos)
+- [Protótipo](#-protótipo)
+- [Equipe](#-desenvolvedores)
+
 ## 📱 Ecosrev — Seu app para descarte consciente de resíduos eletrônicos
 
 **Ecosrev** é um aplicativo mobile criado para facilitar e incentivar o descarte correto de resíduos eletroeletrônicos. A plataforma conecta usuários a pontos de coleta e empresas especializadas, tornando o processo de reciclagem mais prático, acessível e sustentável.
