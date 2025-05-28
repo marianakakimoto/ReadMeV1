@@ -1,11 +1,13 @@
 # 
 <img src="capa.png" alt="Banner para Site Sua Nova Sombra Roxo e Azul Moderno Delicado" style="border-radius: 200px; width: 100%; height: auto;">
 
-## 🚀 Visão Geral
+## 📱 Ecosrev — Seu app para descarte consciente de resíduos eletrônicos
 
-**Ecosrev** é uma plataforma web desenvolvida com o objetivo de incentivar o descarte correto de resíduos eletroeletrônicos. A aplicação conecta cidadãos a empresas especializadas em coleta de lixo eletrônico, promovendo a sustentabilidade e a conscientização ambiental. O sistema oferece recompensas para os usuários que participam do descarte responsável de seus resíduos.
+**Ecosrev** é um aplicativo mobile criado para facilitar e incentivar o descarte correto de resíduos eletroeletrônicos. A plataforma conecta usuários a pontos de coleta e empresas especializadas, tornando o processo de reciclagem mais prático, acessível e sustentável.
 
-Este projeto foi desenvolvido no âmbito do curso de **Laboratório de Desenvolvimento Web**, utilizando tecnologias modernas para garantir uma experiência de usuário de alta qualidade, bem como um backend eficiente e escalável.
+Por meio do app, qualquer pessoa pode localizar locais de coleta, agendar descartes e acompanhar sua contribuição para o meio ambiente. Além disso, o Ecosrev oferece recompensas para os usuários que praticam o descarte responsável, estimulando hábitos sustentáveis no dia a dia.
+
+O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratório de Desenvolvimento Mobile, utilizando tecnologias modernas que garantem uma experiência intuitiva, fluida e eficiente, tanto para os usuários quanto para os parceiros da plataforma.
 
 ---
 
@@ -308,10 +310,13 @@ Você pode acessar o site através do seguinte link: [EcosRev - PI](https://ecos
 ## 🧑‍💻 Desenvolvedores
 
 Este projeto foi desenvolvido por uma equipe de estudantes do curso de Desenvolvimento de Software Multiplataforma. Abaixo estão os nomes dos colaboradores:
-| Nome | GitHub |
-| ----- | ------ |
-| *Gabriel Yamaoka Bernardes* | [YamaokaK](https://github.com/YamaokaK) |
-| *João Lucas Melo* | [JoaoLucasMdO](https://github.com/JoaoLucasMdO) |
-| *Laura Jane Antunes* | [LauraJaneAntunes](https://github.com/LauraJaneAntunes) |
-| *Mariana Hirata* | [marianakakimoto](https://github.com/marianakakimoto) |
-| *Mateus Ferreira* | [AEntropia](https://github.com/AEntropia) |
+
+| Nome | GitHub | Função |
+| ---- | ------ | -------------- |
+| *Gabriel Yamaoka Bernardes* | [YamaokaK](https://github.com/YamaokaK) | DevOps |
+| *João Lucas Melo* | [JoaoLucasMdO](https://github.com/JoaoLucasMdO) | Mobile Developer |
+| *Laura Jane Antunes* | [LauraJaneAntunes](https://github.com/LauraJaneAntunes) | Frontend Developer |
+| *Mariana Hirata* | [marianakakimoto](https://github.com/marianakakimoto) | Product Owner (PO) |
+| *Mateus Ferreira* | [AEntropia](https://github.com/AEntropia) | Backend Developer |
+| *Gesley de Oliveira* | [GesleyOliveira](https://github.com/GesleyOliveira)  | Quality Assurance |
+
