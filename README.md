@@ -102,10 +102,7 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 ![Concurrently](https://img.shields.io/badge/Concurrently-%23000000?style=flat) 
 ---
 
-## 📜 Requisitos
-<details>
-<summary>**Requisitos Funcionais (RF)**</summary>
-
+## 📜 Requisitos Funcionais
 <!-- RF01 - Gerenciamento de Usuários -->
 <details>
 <summary>RF01 - Gerenciamento de Usuários</summary>
@@ -179,10 +176,7 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 <p>O sistema deve manter a usabilidade e layout adequados mesmo com tamanhos de fonte maiores.</p>
 </details>
 
-</details>
-
-<details>
-<summary>**Requisitos Não Funcionais (RNF)**</summary>
+## 🔧 Requisitos Não Funcionais
 
 <!-- RNF01 - Performance -->
 <details>
@@ -257,8 +251,6 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 <p>App deve funcionar com pelo menos 2GB de RAM.</p>
 <p>App deve ocupar no máximo 200MB de armazenamento.</p>
 <p>Consumo de bateria deve ser otimizado.</p>
-</details>
-
 </details>
 
 ---
