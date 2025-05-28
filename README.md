@@ -12,7 +12,7 @@
 - [Protótipo](#-protótipo)
 - [Equipe](#-desenvolvedores)
 ---
-##Sobre o Projeto
+## Sobre o Projeto
 
 **Ecosrev** é um aplicativo mobile criado para facilitar e incentivar o descarte correto de resíduos eletroeletrônicos. A plataforma conecta usuários a pontos de coleta e empresas especializadas, tornando o processo de reciclagem mais prático, acessível e sustentável.
 
