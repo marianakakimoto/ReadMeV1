@@ -90,7 +90,7 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 
 ### 🚀 Desenvolvimento
 ![nodemon](https://img.shields.io/badge/nodemon-%2300C600?style=flat&logo=nodemon&logoColor=white)
-
+![Concurrently](https://img.shields.io/badge/Concurrently-%23000000?style=flat) 
 ---
 
 ## 📜 Requisitos
