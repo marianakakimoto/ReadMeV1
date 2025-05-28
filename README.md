@@ -13,52 +13,44 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 
 ## 🔧 Tecnologias Utilizadas
 
-## 🔧 Tecnologias Utilizadas
+### 📱 Framework e Ambiente
+![React Native](https://img.shields.io/badge/React_Native-%2361DAFB?style=flat&logo=react&logoColor=white) 
+![Expo](https://img.shields.io/badge/Expo-%230080FF?style=flat&logo=expo&logoColor=white) 
+![React Native Web](https://img.shields.io/badge/React_Native_Web-%2300D8FF?style=flat&logo=react&logoColor=white)
 
-### **Frontend / Mobile**
-![React Native](https://img.shields.io/badge/React_Native-%2361DAFB?style=flat&logo=react&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=flat&logo=typescript&logoColor=white)
-![React Native Web](https://img.shields.io/badge/React_Native_Web-%2361DAFB?style=flat&logo=react&logoColor=white)
+### 🎨 Estilização e UI
+![React Native Paper](https://img.shields.io/badge/React_Native_Paper-%2300BCD4?style=flat) 
+![Expo Linear Gradient](https://img.shields.io/badge/Expo_Linear_Gradient-%23009688?style=flat) 
+![Expo Font](https://img.shields.io/badge/Expo_Font-%23008CFF?style=flat) 
+![Google Fonts](https://img.shields.io/badge/Google_Fonts-%23EA4335?style=flat&logo=google&logoColor=white) 
+![Lucide](https://img.shields.io/badge/Lucide-%23000000?style=flat&logo=github&logoColor=white)
 
-**Framework e Ambiente**
-- React Native — Desenvolvimento de aplicativos mobile nativos.
-- Expo — Plataforma para desenvolvimento simplificado no React Native.
-- React Native Web — Permite rodar o app React Native na web.
+### 🔧 Navegação
+![React Navigation](https://img.shields.io/badge/React_Navigation-%23FF6E40?style=flat) 
+![Gesture Handler](https://img.shields.io/badge/React_Native_Gesture_Handler-%2300CFFF?style=flat) 
+![React Native Screens](https://img.shields.io/badge/React_Native_Screens-%2300CFFF?style=flat) 
+![Safe Area Context](https://img.shields.io/badge/React_Native_Safe_Area_Context-%2300CFFF?style=flat)
 
-**Estilização e UI**
-- React Native Paper — Componentes UI baseados no Material Design.
-- Expo Linear Gradient — Gradientes de cor no app.
-- Expo Font + Expo Google Fonts — Fontes personalizadas (Lato, Open Sans, Poppins e Roboto).
-- Lucide React Native — Ícones SVG modernos.
+### 🗂️ Gerenciamento de Dados e Configurações
+![Async Storage](https://img.shields.io/badge/@react_native_async_storage-000000?style=flat) 
+![React Native Dotenv](https://img.shields.io/badge/React_Native_Dotenv-%23008080?style=flat)
 
-**Navegação**
-- React Navigation (Native, Stack, Drawer, Bottom Tabs) — Navegação entre telas.
-- React Native Gesture Handler — Suporte a gestos.
-- React Native Screens — Gerenciamento eficiente de telas.
-- React Native Safe Area Context — Respeita áreas seguras (notch, status bar).
+### 🧠 Formulários e Validação
+![Formik](https://img.shields.io/badge/Formik-%23454545?style=flat) 
+![Yup](https://img.shields.io/badge/Yup-%23009900?style=flat)
 
-**Gerenciamento de Dados e Configurações**
-- @react-native-async-storage/async-storage — Armazenamento local.
-- React Native Dotenv — Gerenciamento de variáveis de ambiente (.env).
+### 📸 Funcionalidades Extras
+![Expo Camera](https://img.shields.io/badge/Expo_Camera-%23009688?style=flat) 
+![React Native SVG](https://img.shields.io/badge/React_Native_SVG-%2300CFFF?style=flat) 
+![SVG Transformer](https://img.shields.io/badge/SVG_Transformer-%2300CFFF?style=flat) 
+![React Native Pager View](https://img.shields.io/badge/React_Native_Pager_View-%2300CFFF?style=flat)
 
-**Formulários e Validação**
-- Formik — Gerenciamento de formulários.
-- Yup — Validação de dados e schemas.
+### 🔗 Comunicação com API
+![Axios](https://img.shields.io/badge/Axios-%230072B1?style=flat)
 
-**Funcionalidades Extras**
-- Expo Camera — Acesso à câmera do dispositivo.
-- React Native SVG + React Native SVG Transformer — Suporte a SVG.
-- React Native Pager View — Componente de swipe/carrossel.
-
-**Comunicação com API**
-- Axios — Cliente HTTP para integração com backend.
-
-**Desenvolvimento e Scripts**
-- Concurrently — Execução simultânea de múltiplos scripts (ex.: frontend e backend).
-- @babel/core — Transpilação de JavaScript moderno para versões compatíveis.
-
----
+### 🏗️ Desenvolvimento e Scripts
+![Concurrently](https://img.shields.io/badge/Concurrently-%23000000?style=flat) 
+![Babel](https://img.shields.io/badge/@babel/core-%23F9DC3E?style=flat&logo=babel&logoColor=black)
 
 ### **Backend**
 ![Node.js](https://img.shields.io/badge/Node.js-%23339933?style=flat&logo=node.js&logoColor=white)
