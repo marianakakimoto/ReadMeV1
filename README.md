@@ -1,6 +1,6 @@
 # 
 <img src="capa.png" alt="Banner para Site Sua Nova Sombra Roxo e Azul Moderno Delicado" style="border-radius: 200px; width: 100%; height: auto;">
-
+# 📱 Ecosrev — Seu app para descarte consciente de resíduos eletrônicos
 ## Índice
 - [Sobre o Projeto](#-ecosrev--seu-app-para-descarte-consciente-de-resíduos-eletrônicos)
 - [Tecnologias Frontend](#-tecnologias-frontend)
@@ -10,7 +10,7 @@
 - [Protótipo](#-protótipo)
 - [Equipe](#-desenvolvedores)
 
-## 📱 Ecosrev — Seu app para descarte consciente de resíduos eletrônicos
+##Sobre o Projeto
 
 **Ecosrev** é um aplicativo mobile criado para facilitar e incentivar o descarte correto de resíduos eletroeletrônicos. A plataforma conecta usuários a pontos de coleta e empresas especializadas, tornando o processo de reciclagem mais prático, acessível e sustentável.
 
@@ -104,7 +104,7 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 
 ## 📜 Requisitos
 <details>
-  <summary>**Requisitos Funcionais (RF)**</summary>
+  <summary>Requisitos Funcionais (RF)</summary>
 
   <!-- RF01 - Gerenciamento de Usuários -->
   <details>
@@ -182,7 +182,7 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 </details>
 
 <details>
-  <summary>**Requisitos Não Funcionais (RNF)**</summary>
+  <summary>Requisitos Não Funcionais (RNF)</summary>
 
   <!-- RNF01 - Performance -->
   <details>
@@ -267,7 +267,7 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 
 Acesse o protótipo no Figma:  
 
-[Protótipo no Figma](https://www.figma.com/design/bXL4WXW3bh4LPZq1Nl6Mbh/EcosRev---com-tratamento-de-exce%C3%A7%C3%A3o?node-id=0-1&t=NFlEy2NGOc1szUI9-1)
+[Acesse aqui o protótipo!](https://www.figma.com/design/bXL4WXW3bh4LPZq1Nl6Mbh/EcosRev---com-tratamento-de-exce%C3%A7%C3%A3o?node-id=0-1&t=NFlEy2NGOc1szUI9-1)
 
 ---
 
