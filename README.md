@@ -1,5 +1,5 @@
 # 
-<img src="[Black and White Gradient Personal LinkedIn Banner.svg](https://github.com/marianakakimoto/ReadMeV1/blob/main/Black%20and%20%20White%20Gradient%20Personal%20LinkedIn%20Banner.svg)" alt="Banner para Site Sua Nova Sombra Roxo e Azul Moderno Delicado" style="border-radius: 200px; width: 100%; height: auto;">
+<img src="https://github.com/marianakakimoto/ReadMeV1/blob/main/Black%20and%20%20White%20Gradient%20Personal%20LinkedIn%20Banner.svg" alt="Banner para Site Sua Nova Sombra Roxo e Azul Moderno Delicado" style="border-radius: 200px; width: 100%; height: auto;">
 
 ## 🚀 Visão Geral
 
