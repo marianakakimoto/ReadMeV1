@@ -13,23 +13,79 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 
 ## 🔧 Tecnologias Utilizadas
 
-### **Frontend**
-![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=flat&logo=next.js&logoColor=white)
-![React.js](https://img.shields.io/badge/React-%2320232a?style=flat&logo=react&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=flat&logo=typescript&logoColor=white)
+## 🔧 Tecnologias Utilizadas
+
+### **Frontend / Mobile**
 ![React Native](https://img.shields.io/badge/React_Native-%2361DAFB?style=flat&logo=react&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?style=flat&logo=typescript&logoColor=white)
+![React Native Web](https://img.shields.io/badge/React_Native_Web-%2361DAFB?style=flat&logo=react&logoColor=white)
+
+**Framework e Ambiente**
+- React Native — Desenvolvimento de aplicativos mobile nativos.
+- Expo — Plataforma para desenvolvimento simplificado no React Native.
+- React Native Web — Permite rodar o app React Native na web.
+
+**Estilização e UI**
+- React Native Paper — Componentes UI baseados no Material Design.
+- Expo Linear Gradient — Gradientes de cor no app.
+- Expo Font + Expo Google Fonts — Fontes personalizadas (Lato, Open Sans, Poppins e Roboto).
+- Lucide React Native — Ícones SVG modernos.
+
+**Navegação**
+- React Navigation (Native, Stack, Drawer, Bottom Tabs) — Navegação entre telas.
+- React Native Gesture Handler — Suporte a gestos.
+- React Native Screens — Gerenciamento eficiente de telas.
+- React Native Safe Area Context — Respeita áreas seguras (notch, status bar).
+
+**Gerenciamento de Dados e Configurações**
+- @react-native-async-storage/async-storage — Armazenamento local.
+- React Native Dotenv — Gerenciamento de variáveis de ambiente (.env).
+
+**Formulários e Validação**
+- Formik — Gerenciamento de formulários.
+- Yup — Validação de dados e schemas.
+
+**Funcionalidades Extras**
+- Expo Camera — Acesso à câmera do dispositivo.
+- React Native SVG + React Native SVG Transformer — Suporte a SVG.
+- React Native Pager View — Componente de swipe/carrossel.
+
+**Comunicação com API**
+- Axios — Cliente HTTP para integração com backend.
+
+**Desenvolvimento e Scripts**
+- Concurrently — Execução simultânea de múltiplos scripts (ex.: frontend e backend).
+- @babel/core — Transpilação de JavaScript moderno para versões compatíveis.
+
+---
 
 ### **Backend**
-![Express.js](https://img.shields.io/badge/Express.js-%23404d59?style=flat&logo=express&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-%23339933?style=flat&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express-%23404d59?style=flat&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248?style=flat&logo=mongodb&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-%2385B8C8?style=flat&logo=swagger&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-%23FF6C37?style=flat&logo=postman&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900?style=flat&logo=amazon-aws&logoColor=white)
 
-### **Deploy**
+- Node.js — Ambiente de execução.
+- Express.js — Framework para API REST.
+- MongoDB — Banco de dados NoSQL.
+- Swagger — Documentação da API.
+- Postman — Testes de API.
+- AWS — Hospedagem de arquivos e serviços.
+
+---
+
+### **Deploy e Infraestrutura**
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000?style=flat&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-%230db7ed?style=flat&logo=docker&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=flat&logo=github&logoColor=white)
+
+- Vercel — Hospedagem web.
+- Docker — Contêinerização do backend e frontend.
+- Docker Hub — Armazenamento de imagens Docker.
+- GitHub — Versionamento de código.
 
 ---
 
@@ -299,13 +355,6 @@ Acesse o protótipo no Figma:
   </p>
   </details>
 </details>
-
-## 🌐 Hospedagem do Site
-Este site está hospedado na [Vercel](https://vercel.com), uma plataforma de deploy e hospedagem de aplicações web, otimizada para projetos front-end e full-stack. A Vercel oferece recursos como deploys automáticos a partir de repositórios Git, integração contínua e um desempenho de alta qualidade com uma rede de entrega de conteúdo (CDN) global.
-
-## 📍 Acesso
-Você pode acessar o site através do seguinte link: [EcosRev - PI](https://ecos-rev-pi.vercel.app)
-
 
 ## 🧑‍💻 Desenvolvedores
 
