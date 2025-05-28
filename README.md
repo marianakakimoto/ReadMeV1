@@ -1,5 +1,5 @@
 # 
-<img src="[https://github.com/marianakakimoto/ReadMeV1/blob/main/Banner%20para%20Site%20Sua%20Nova%20Sombra%20Roxo%20e%20Azul%20Moderno%20Delicado%20(1).svg"] alt="Banner para Site Sua Nova Sombra Roxo e Azul Moderno Delicado" style="border-radius: 200px; width: 100%; height: auto;">
+<img src="https://github.com/marianakakimoto/ReadMeV1/blob/main/Banner%20para%20Site%20Sua%20Nova%20Sombra%20Roxo%20e%20Azul%20Moderno%20Delicado%20(1).svg" alt="Banner para Site Sua Nova Sombra Roxo e Azul Moderno Delicado" style="border-radius: 200px; width: 100%; height: auto;">
 
 ## 🚀 Visão Geral
 
