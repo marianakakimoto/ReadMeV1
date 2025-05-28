@@ -11,7 +11,7 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 
 ---
 
-## 🔧 Tecnologias Utilizadas
+## 🧩 Tecnologias Frontend
 
 ### 📱 Framework e Ambiente
 ![React Native](https://img.shields.io/badge/React_Native-%2361DAFB?style=flat&logo=react&logoColor=white) 
@@ -52,32 +52,44 @@ O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratóri
 ![Concurrently](https://img.shields.io/badge/Concurrently-%23000000?style=flat) 
 ![Babel](https://img.shields.io/badge/@babel/core-%23F9DC3E?style=flat&logo=babel&logoColor=black)
 
-### **Backend**
-![Node.js](https://img.shields.io/badge/Node.js-%23339933?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express-%23404d59?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248?style=flat&logo=mongodb&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-%2385B8C8?style=flat&logo=swagger&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-%23FF6C37?style=flat&logo=postman&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900?style=flat&logo=amazon-aws&logoColor=white)
+## 🚀 Tecnologias Backend
 
-- Node.js — Ambiente de execução.
-- Express.js — Framework para API REST.
-- MongoDB — Banco de dados NoSQL.
-- Swagger — Documentação da API.
-- Postman — Testes de API.
-- AWS — Hospedagem de arquivos e serviços.
+### 🔧 Framework e Server
+![Express](https://img.shields.io/badge/Express-%23404D59?style=flat&logo=express&logoColor=white)
 
----
+### 🔒 Autenticação e Segurança
+![bcryptjs](https://img.shields.io/badge/bcryptjs-%23007127?style=flat) 
+![jsonwebtoken](https://img.shields.io/badge/jsonwebtoken-%23FF0000?style=flat) 
+![cors](https://img.shields.io/badge/cors-%23000000?style=flat)
 
-### **Deploy e Infraestrutura**
-![Vercel](https://img.shields.io/badge/Vercel-%23000000?style=flat&logo=vercel&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-%230db7ed?style=flat&logo=docker&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-%23121011?style=flat&logo=github&logoColor=white)
+### 🗄️ Banco de Dados
+![mysql2](https://img.shields.io/badge/mysql2-%23007FFF?style=flat&logo=mysql&logoColor=white) 
+![mongodb](https://img.shields.io/badge/mongodb-%2347A248?style=flat&logo=mongodb&logoColor=white)
 
-- Vercel — Hospedagem web.
-- Docker — Contêinerização do backend e frontend.
-- Docker Hub — Armazenamento de imagens Docker.
-- GitHub — Versionamento de código.
+### 📆 Datas e Timezones
+![date-fns](https://img.shields.io/badge/date--fns-%23000000?style=flat) 
+![date-fns-tz](https://img.shields.io/badge/date--fns--tz-%23000000?style=flat)
+
+### 💌 Email
+![nodemailer](https://img.shields.io/badge/nodemailer-%23000000?style=flat)
+
+### 🧹 Validação
+![express-validator](https://img.shields.io/badge/express--validator-%23000000?style=flat)
+
+### 📜 Documentação
+![swagger-ui-express](https://img.shields.io/badge/swagger--ui--express-%23000000?style=flat) 
+![swagger-jsdoc](https://img.shields.io/badge/swagger--jsdoc-%23000000?style=flat) 
+![swagger-autogen](https://img.shields.io/badge/swagger--autogen-%23000000?style=flat)
+
+### 🔐 Variáveis de Ambiente
+![dotenv](https://img.shields.io/badge/dotenv-%23000000?style=flat)
+
+### 🧪 Testes
+![jest](https://img.shields.io/badge/jest-%23C21325?style=flat&logo=jest&logoColor=white) 
+![supertest](https://img.shields.io/badge/supertest-%23000000?style=flat)
+
+### 🚀 Desenvolvimento
+![nodemon](https://img.shields.io/badge/nodemon-%2300C600?style=flat&logo=nodemon&logoColor=white)
 
 ---
 
