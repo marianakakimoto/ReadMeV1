@@ -278,7 +278,30 @@ Acesse o protótipo no Figma:
 - Gestão dos custos de utilização da AWS.
   
 ## 🔐 Análise de Segurança:
-Realizar uma análise detalhada de segurança para identificar e corrigir possíveis vulnerabilidades na autenticação, comunicação entre cliente e servidor, e armazenamento de dados.
+
+| Vulnerabilidade                                                                 | Vamos Resolver | Implementação Futura |
+|----------------------------------------------------------------------------------|----------------|----------------------|
+| Ausência de checksums para verificar integridade de dados                       |                | ✅                   |
+| Falta de logs de auditoria para mudanças críticas                                |                | ✅                   |
+| Sem validação de integridade de arquivos enviados                                |                | ✅                   |
+| Tokens armazenados em AsyncStorage sem criptografia                              |                | ✅                   |
+| **CRÍTICO:** Ausência total de rate limiting                                     | ✅             |                      |
+| **CRÍTICO:** Sem proteção contra ataques DDoS                                    |                | ✅                   |
+| **CRÍTICO:** Ausência de circuit breakers                                        |                | ✅                   |
+| Falta de monitoramento de recursos                                               | ✅             |                      |
+| Sem estratégias de backup/recuperação                                            | ✅             |                      |
+| Falta de validação de origem de requisições                                      | ✅             |                      |
+| Ausência de MFA (Multi-Factor Authentication)                                    |                | ✅                   |
+| **CRÍTICO:** Ausência de logs de auditoria estruturados                          |                | ✅                   |
+| **CRÍTICO:** Sem assinatura digital de transações                                |                | ✅                   |
+| **CRÍTICO:** Falta de trilhas de auditoria                                       |                | ✅                   |
+| Sem backup de logs                                                               |                | ✅                   |
+| **CRÍTICO:** Ausência total de rate limiting (Repetido, em ataques DoS)**         | ✅             |                      |
+| **CRÍTICO:** Sem proteção contra ataques de recursos                             | ✅             |                      |
+| **CRÍTICO:** Endpoints vulneráveis a sobrecarga                                  | ✅             |                      |
+| Falta de sanitização específica para NoSQL                                       | ✅             |                      |
+| Headers inseguros                                                                | ✅             |                      |
+| CORS permissivo                                                                  | ✅             |                      |
 
 ---
 
