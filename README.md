@@ -263,11 +263,11 @@ Acesse o protótipo no Figma:
 
 ---
 
-##📌 Futuras Implementações
-###✅ Análise de Segurança:
+## 📌 Futuras Implementações
+### ✅ Análise de Segurança:
 Realizar uma análise detalhada de segurança para identificar e corrigir possíveis vulnerabilidades na autenticação, comunicação entre cliente e servidor, e armazenamento de dados.
 
-###✅ Aplicativo na Nuvem:
+### ✅ Aplicativo na Nuvem:
 Implantar a aplicação backend e frontend em serviços de nuvem escaláveis, garantindo alta disponibilidade, performance e facilidade de manutenção.
 
 ---
