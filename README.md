@@ -263,12 +263,22 @@ Acesse o protótipo no Figma:
 
 ---
 
-## 📌 Futuras Implementações
-### ✅ Análise de Segurança:
-Realizar uma análise detalhada de segurança para identificar e corrigir possíveis vulnerabilidades na autenticação, comunicação entre cliente e servidor, e armazenamento de dados.
+## ☁ Futuras Implementações
 
-### ✅ Aplicativo na Nuvem:
-Implantar a aplicação backend e frontend em serviços de nuvem escaláveis, garantindo alta disponibilidade, performance e facilidade de manutenção.
+- Utilização de banco de dados (BD) não relacional.
+- Utilizar um BD relacional na AWS.
+- Adicionar feature para armazenar informações em um BD relacional.
+- Deploy do backend e frontend na AWS.
+- Integração entre backend, frontend e bancos de dados (relacional e não relacional) na AWS.
+- Feature para realizar uploads de objetos.
+- Armazenamento de objetos no Amazon S3.
+- Utilizar API Gateway para gerenciar as requisições.
+- Documentar a implementação realizada.
+- Estimativa de custo para a arquitetura realizada.
+- Gestão dos custos de utilização da AWS.
+  
+## 🔐 Análise de Segurança:
+Realizar uma análise detalhada de segurança para identificar e corrigir possíveis vulnerabilidades na autenticação, comunicação entre cliente e servidor, e armazenamento de dados.
 
 ---
 
